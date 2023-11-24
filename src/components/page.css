@@ -1,0 +1,639 @@
+/* Basic styles */
+
+body {
+    font-family: 'Open Sans', sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  
+  /* Home wrapper */
+  
+  .home-wrapper {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  
+  /* Logo container */
+  
+  .logo-container {
+    text-align: center;
+  }
+  
+  .logo {
+    width: 150px;
+    height: auto;
+  }
+  
+  /* Section headers */
+  
+  .section-header {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .home-title,
+  .about-us-title,
+  .our-activity-title,
+  .future-plan-title,
+  .our-events-title,
+  .gallery-title {
+    font-size: 20px;  /* Adjusted font size */
+    font-weight: bold;
+    margin: 0;
+    color: #333;
+  }
+  
+  /* Button container */
+  
+  .button-container {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .join-us-button,
+  .contact-us-button,
+  .donate-us-button {
+    padding: 10px 20px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    cursor: pointer;
+    background-color: #fff;
+    color: #333;
+    font-weight: bold;
+  }
+  
+
+  /* main         */
+
+  .main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+  
+  .image-container {
+    margin: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+  }
+  
+  .image {
+    width: 95%;
+    max-height: 5%;
+  
+  }
+  
+  .text-container {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    text-align: center;
+  }
+  
+  .image-title {
+    margin-bottom: 10px; /* Add some space between the title and the button */
+  }
+  
+  .donate-us-button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+
+   /* cards css*/
+
+   .cards {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+  }
+  
+  .mission-card,
+  .vision-card,
+  .objectives-card {
+    background-color: #f2f2f2;
+    border: 20px solid #ddd;
+    padding: 60px;
+    text-align: center;
+    width: 350px; /* Adjust the width as needed */
+  }
+  
+  .learn-more-button {
+    background-color: #4caf50;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 10px;
+  }
+  
+  /* Add hover effect to the Learn More button */
+  .learn-more-button:hover {
+    background-color: #45a049;
+  }
+  .card-title {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; /* Replace with your preferred font */
+    font-weight: bold;
+    font-size: 24px; /* Adjust the font size as needed */
+    margin-bottom: 10px; /* Add some space between title and text */
+    color: #333; /* Set the desired text color */
+  }
+  
+  .card-text {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; /* Replace with your preferred font */
+    font-size: 18px; /* Adjust the font size as needed */
+    color: #555; /* Set the desired text color */
+  }
+  
+  /* Add hover effect to the Learn More button */
+  .learn-more-button:hover {
+    background-color: #45a049;
+  }
+
+
+   /*      foundation-container                          */
+
+   .foundation-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding:50px;
+    font-family: 'Arial', sans-serif;
+    margin-top : 1px ; /* Use your preferred font-family */
+  }
+  
+  .image-section {
+    flex: 1;
+    margin-right: 10px; /* Adjust margin as needed */
+  }
+  
+  .foundation-image {
+    width: 100%;
+    max-width: 700px; /* Adjust the width as needed */
+    height: auto;
+  }
+  
+  .text-section {
+    flex: 1;
+    padding: 0 10px; /* Adjust the padding as needed */
+    max-width: 600px; /* Adjust the width as needed */
+  }
+  
+  .welcome-message {
+    font-size: 18px;
+    color: #333;
+  }
+  
+  .foundation-title {
+    font-size: 28px;
+    font-weight: bold;
+    margin-top: 10px;
+    color: #333;
+  }
+  
+  .foundation-description {
+    font-size: 16px;
+    line-height: 1.6;
+    margin-top: 10px; /* Adjust margin as needed */
+    color: #555;
+  }
+  
+  .learn-more-button {
+    background-color: #4caf50;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 20px;
+  }
+  
+  .learn-more-button:hover {
+    background-color: #45a049;
+  }
+   
+
+  /*        activity-item */ 
+
+  .activities-container {
+    display: flex;
+    justify-content: space-around; /* Adjust as needed */
+    align-items: center;
+    text-align: center;
+    font-family: 'Your Preferred Font', cursive; /* Use your preferred cursive font */
+  
+    /* Add margin and padding to the container */
+    margin: 20px;
+    padding: 20px;
+  }
+  
+  .activity-heading {
+    margin-bottom: 20px;
+    font-family: 'Your Preferred Bold Font', sans-serif; /* Use your preferred bold font */
+    font-weight: bold;
+  }
+  
+  
+  .activity-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    background-color: #f2f2f2;
+    border: 1px solid #ddd;
+    padding: 20px;
+    max-width: 300px; /* Adjust the width as needed */
+  }
+  
+  .activity-image {
+    width: 100%;
+    max-height: 200px; /* Adjust the height as needed */
+    object-fit: cover;
+    margin-bottom: 10px;
+  }
+  
+  .activity-title {
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+  
+  .activity-description {
+    font-size: 16px;
+    line-height: 1.6;
+    margin-bottom: 10px;
+  }
+  
+  .learn-more-button {
+    background-color: #4caf50;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .learn-more-button:hover {
+    background-color: #45a049;
+  }
+  
+
+
+  /*     seva-foundation-container */
+
+
+  .seva-foundation-container {
+    background-color: #f2f2f2; /* Gray background color */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50vh; /* Adjust height as needed */
+    font-family: 'Your Preferred Cursive Font', cursive; /* Use your preferred cursive font */
+  }
+  
+  .seva-foundation-text-section {
+    text-align: center;
+    padding: 20px;
+  }
+  
+  .seva-foundation-title {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+  
+  .sub-title {
+    font-size: 18px;
+    margin-bottom: 10px;
+  }
+  
+  .main-description {
+    font-size: 16px;
+    line-height: 1.6;
+    margin-bottom: 20px;
+  }
+  
+  .learn-more-button {
+    background-color: #4caf50;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .learn-more-button:hover {
+    background-color: #45a049;
+  }
+  
+    /*    donate-contact-container */
+
+    .donate-contact-container {
+      display: flex;
+      justify-content: space-around;
+      align-items: center;
+      text-align: center;
+      margin: 1px;
+      padding: 5px;
+    }
+    
+    .donate-section,
+    .contact-section {
+      max-width: 400px;
+      background-color: #f2f2f2; /* Grey background color */
+      border: 1px solid #ddd; /* Add a border for a cleaner look */
+      padding: 20px;
+    }
+    
+    .donate-title,
+    .contact-title {
+      font-size: 24px;
+      margin-bottom: 10px;
+    }
+    
+    .donate-description,
+    .contact-description {
+      font-size: 16px;
+      line-height: 1.6;
+      margin-bottom: 10px;
+    }
+    
+    .learn-more-button {
+      background-color: #4caf50;
+      color: white;
+      padding: 10px 20px;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+    }
+    
+    .learn-more-button:hover {
+      background-color: #45a049;
+    }
+    
+    /* "stats-container */
+
+
+    .stats-container {
+      display: flex;
+      justify-content: space-around;
+      align-items: center;
+      text-align: center;
+      background-color: #f2f2f2; /* Grey background color, adjust as needed */
+      padding: 20px;
+    }
+    
+    .members-count,
+    .projects-count,
+    .activities-count,
+    .donation-raised {
+      font-size: 24px;
+      color: #333; /* Adjust text color as needed */
+      margin: 10px 0;
+    }
+    
+    /* Optional: Add hover effect on the counts */
+    .members-count:hover,
+    .projects-count:hover,
+    .activities-count:hover,
+    .donation-raised:hover {
+      color: #4caf50; /* Adjust hover color as needed */
+      cursor: pointer;
+    }
+
+
+    /*stats-container */
+
+
+    .stats-container {
+      display: flex;
+      justify-content: space-around;
+      align-items: center;
+      background-color: #3498db; /* Blue background color, you can change it */
+      padding: 5px;
+      margin :10px ;
+    }
+    
+    .stat-item {
+      text-align: center;
+      color: white; /* Text color */
+    }
+    
+    .stat-count {
+      font-size: 36px;
+      font-weight: bold; /* Bold text */
+      margin: 5px;
+    }
+    
+    .stat-description {
+      font-size: 18px;
+      margin: 0;
+    }
+    
+
+     /*   president-section  */
+
+   
+body {
+  font-family: 'Your Preferred Font', sans-serif; /* Add your preferred font-family */
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* President Section Styles */
+.president-section {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  background-color: #f0f0f0; /* Light gray background color */
+  padding: 5px;
+}
+
+/* President Image Styles */
+.president-image img {
+  width: 230px; /* Adjust image width as needed */
+
+  border-radius: 7%; /* Make the image circular */
+}
+
+/* President Content Styles */
+.president-content {
+  max-width: 900px;
+}
+
+/* Foundation Name Styles */
+.foundation-name {
+  font-size: 18px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+/* Message Title Styles */
+.message-title {
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+/* Message Content Styles */
+.message-content {
+  font-size: 16px;
+  line-height: 1.6;
+  margin-bottom: 10px;
+}
+
+/* President Name Styles */
+.president-name {
+  font-size: 18px;
+  font-weight: bold;
+  margin-top: 10px;
+}
+
+/* President Title Styles */
+.president-title {
+  font-size: 16px;
+  margin-top: 5px;
+}
+
+.president-name {
+  font-size: 18px;
+  font-family: 'Dancing Script', cursive; /* Handwriting-style font */
+  color : rgb(106, 90, 205) ;
+  margin-top: 10px;}
+
+   /*           footer            */
+   .organization-section {
+    display: flex;
+    align-items: center;
+    justify-content: center; /* Center content horizontally */
+    padding: 5px;
+    background-color: black; /* Set your preferred background color */
+    color: #fff; /* Set text color to white or a color that contrasts well with the background */
+    font-family: 'Your Preferred Font', sans-serif; /* Use your preferred font */
+  }
+  
+  .organization-section img {
+    width: 100px; /* Adjust as needed */
+    height: 100px; /* Adjust as needed */
+    object-fit: cover;
+    margin-right: 20px; /* Adjust as needed */
+  }
+  .organization-description {
+    text-align: center;
+    font-weight: bold;
+    font-size: 25px; /* Adjust as needed */
+  }
+
+
+
+  /* 000000000000000000000000000000*/
+  .container {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .navigation-section,
+  .contact-info-section {
+    background-color: #f2f2f2;
+    border: 20px solid #ddd;
+    padding: 10px;
+    text-align: center;
+    flex: 1; /* Equal width for both sections */
+    border-radius: 10px; /* Add border-radius for a card effect */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Add box-shadow for a card effect */
+    
+  }
+  
+  .navigation-section h,
+  .contact-info-section h {
+    margin: 0; /* Remove default margin */
+  }
+  
+  .navigation-section h.nav-item {
+    font-weight: bold;
+    margin-right :50px; 
+    margin-left :50px;/* Set your preferred font weight */
+    
+  }
+  
+  .contact-info-section h.info-title {
+    font-size: 20px; /* Set your preferred font size */
+    font-weight: bold; /* Set your preferred font weight */
+  }
+  
+  .learn-more-button {
+    background-color: #4caf50;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 10px;
+  }
+  
+  /* Add hover effect to the Learn More button */
+  .learn-more-button:hover {
+    background-color: #45a049;
+  }
+   /*  0000000000000000000000   */  
+   .social-icons-section {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top :1px;
+  }
+  
+  .social-icon {
+    width: 30px; /* Adjust the width as needed */
+    height: 30px; /* Adjust the height as needed */
+    object-fit: cover;
+    cursor: pointer;
+    transition: transform 0.3s ease-in-out; /* Add a smooth transition effect */
+  }
+  
+  .social-icon:hover {
+    transform: scale(1.2); /* Add a scale effect on hover */
+  }
+  .contact-info-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+  
+  .info-title,
+  .info-address,
+  .info-phone,
+  .info-email {
+    margin-bottom: 10px; /* Add space between each line */
+  }
+  
+  /* Add this style to your existing CSS file or create a new CSS file */
+
+.navigation-section {
+  display: flex;
+  justify-content: center; /* Center the child elements horizontally */
+  gap: 20px; /* Adjust the value as needed for your desired spacing */
+}
+
+
+
+
+

@@ -1,0 +1,109 @@
+/* DonetUs component styles */
+
+.donate-us-container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    box-sizing: border-box;
+    background-color: #f5f5f5; /* Background color for the container */
+    border-radius: 10px; /* Optional: Add border-radius for rounded corners */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Optional: Add box shadow for a subtle effect */
+  }
+  
+  .donate-us-header {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #333; /* Text color for the header */
+  }
+  
+  .donate-us-section {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+  
+  .donate-us-info,
+  .donate-us-image,
+  .donate-us-bank-info {
+    width: 100%;
+    box-sizing: border-box;
+    margin-bottom: 20px;
+  }
+  
+  .donate-us-image {
+    width: 100%;
+    max-height: 300px;
+    object-fit: cover;
+    border-radius: 8px; /* Optional: Add border-radius for rounded corners */
+  }
+  
+  .donate-us-bank-info div {
+    font-size: 16px; /* Optional: Adjust font size for bank information */
+    color: #555; /* Optional: Text color for bank information */
+  }
+  
+  /* Media query for smaller screens */
+  @media (max-width: 600px) {
+    .donate-us-info,
+    .donate-us-image,
+    .donate-us-bank-info {
+      width: 100%;
+    }
+  }
+  /* DonetUs component styles */
+
+.donate-us-bank-info {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .donate-us-bank-info h2 {
+    font-size: 1.5rem;
+    color: #333;
+    margin-bottom: 15px;
+  }
+  
+  .donate-us-bank-info p {
+    font-size: 1rem;
+    color: #555;
+    margin-bottom: 10px;
+  }
+  
+  /* Media query for smaller screens */
+  @media (max-width: 600px) {
+    .donate-us-bank-info {
+      width: 100%;
+    }
+  }
+  
+  /* DonetUs component styles */
+
+.donate-us-bank-info {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin: 0 auto; /* Center the box horizontally */
+  }
+  
+  .donate-us-bank-info h2 {
+    font-size: 1.5rem;
+    color: #333;
+    margin-bottom: 15px;
+  }
+  
+  .donate-us-bank-info p {
+    font-size: 1rem;
+    color: #555;
+    margin-bottom: 10px;
+  }
+  
+  /* Media query for smaller screens */
+  @media (max-width: 600px) {
+    .donate-us-bank-info {
+      width: 100%;
+    }
+  }
+  

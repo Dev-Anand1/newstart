@@ -1,0 +1,55 @@
+/* UpdatedJoinUs.css */
+
+.custom-updated-join-us-horizontal {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .custom-updated-join-us-content {
+    flex: 1;
+    padding-right: 20px; /* Adjust as needed */
+  }
+  
+  .custom-updated-join-us-heading {
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+  
+  .custom-updated-join-us-description {
+    font-size: 16px;
+  }
+  
+  .custom-updated-join-us-form {
+    flex: 1;
+    max-width: 500px; /* Adjust as needed */
+  }
+  
+  .custom-updated-join-us-label {
+    display: block;
+    margin-bottom: 8px;
+    font-size: 14px;
+  }
+  
+  .custom-updated-join-us-input {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 16px;
+    font-size: 14px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  .custom-updated-join-us-submit-button {
+    background-color: #4caf50;
+    color: #fff;
+    padding: 10px 15px;
+    font-size: 16px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .custom-updated-join-us-submit-button:hover {
+    background-color: #45a049;
+  }
+  
