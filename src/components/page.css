@@ -635,5 +635,46 @@ body {
 
 
 
+/* meadi quary   */
 
 
+
+
+
+
+/* Basic styles */
+
+body {
+  font-family: 'Open Sans', sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+/* Home wrapper */
+
+.home-wrapper {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+/* ... (other styles) */
+
+/* Media query for smaller screens */
+@media only screen and (max-width: 768px) {
+  .home-title,
+  .about-us-title,
+  .our-activity-title,
+  .future-plan-title,
+  .our-events-title,
+  .gallery-title {
+      font-size: 16px; /* Adjusted font size for smaller screens */
+  }
+
+  /* Add more styles for responsiveness as needed */
+}
