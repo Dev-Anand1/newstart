@@ -177,6 +177,13 @@ const Home = () => {
           </button>
         </div>
 
+        <div className="activity-heading">
+          <h4>Apulki Divyang Seva Foundation</h4>
+          <h1>Future Plan</h1>
+        </div>
+
+
+   
         
 
 
